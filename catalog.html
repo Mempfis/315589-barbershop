@@ -70,17 +70,14 @@
                 <form>
                     <fieldset>
                         <legend>Группы товаров:</legend>
-                        <label>
-                            <input type="radio" name="product-groups"> Бритвенные принадлежности
-                        </label>
-                        <label>
-                            <input type="radio" name="product-groups" checked> Средства для ухода
-                        </label>
-                        <label>
-                            <input type="radio" name="product-groups"> Аксессуары
-                        </label>
-                        <input type="submit" value="Показать">
+                        <input type="checkbox" id="oils">
+                        <label for="oils">Бритвенные принадлежности</label>
+                        <input type="checkbox" id="care" checked>
+                        <label for="care">Средства для ухода</label>
+                        <input type="checkbox" id="accessories">
+                        <label for="accessories">Аксессуары</label>
                     </fieldset>
+                    <input type="submit" value="Показать">
                 </form>
             </div>
             <div class="product-catalog">
